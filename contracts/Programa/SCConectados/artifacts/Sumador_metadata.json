@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "resultado_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2_",
+						"type": "uint256"
+					}
+				],
+				"name": "addition",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resultado",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newFee_",
+						"type": "uint256"
+					}
+				],
+				"name": "setFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SCConectados/Sumador.sol": "Sumador"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SCConectados/Sumador.sol": {
+			"keccak256": "0x2ec5a70760c4fc1f57919eafa2694f289294579e2234b2c8c053f6928d7a9521",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://6d346e5666bb2b9a0e6586f528f6efa5f9c8f1eec9d10ac84c5cf2ce0f119da5",
+				"dweb:/ipfs/Qmca3atDmH6YCmpixQrwkSqFNtdHLodLHXhBgHSMvS3xxK"
+			]
+		},
+		"contracts/SCConectados/interfaces/IResultado.sol": {
+			"keccak256": "0xba84d1cc946e175e8223fd7282624cacb7a2765b710448607691e0175aefcea0",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://b5303710245f2db6661d4a83b4768dc6ef7b0f3bc06879a9a2c8fd37cedcd12b",
+				"dweb:/ipfs/QmYFCpbzPyX9S9nKN1jhANdTxQtPUdi3Nm31booPKvLZTr"
+			]
+		}
+	},
+	"version": 1
+}
