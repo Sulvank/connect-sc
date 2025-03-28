@@ -63,11 +63,3 @@ cd connect-sc
 ## **📜 Licencia**
 
 Este proyecto es de código abierto bajo licencia MIT.
-
----
-
-### 🚀 **connect-sc es tu primer paso para interactuar con el mundo de los smart contracts.**
-
----
-
-¿Quieres que te lo genere también en inglés o que lo suba como archivo `README.md`?
